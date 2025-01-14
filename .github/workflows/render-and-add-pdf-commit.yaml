@@ -43,5 +43,5 @@ jobs:
       # Commit all changed files back to the repository
       - uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "Automation generated Table of Contents and rendered PDFs for commit hash '$GITHUB_SHA'"
+          commit_message: "Automation generated Table of Contents and rendered PDFs for commit hash '${{ github.sha }}'"
   
