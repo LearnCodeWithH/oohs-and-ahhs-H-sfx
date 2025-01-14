@@ -1,4 +1,4 @@
-
+Original document located at: https://github.com/LearnCodeWithH/oohs-and-ahhs-H-sfx
 
 <!-- toc -->
 
@@ -86,16 +86,19 @@ Nudge, Bump
 ### Spurting (Ejaculation)
 
 Spurt, Squirt, Splurt, Swell, Throb, Twitch, Bulge, Goop, Splooge, Blech, Gloop, Sploosh, 
+
 Spwish, Glup, Blurt, Blurble, Goosh
 
 ### Cumming
 
 Surge, Burst, Gush, Swell,
+
 Splurt, Spurt, Splort, Blurt, Blort, Blurch, Splurch
 
 ### Rubbing
 
 Rub, Squelch, Press, Squish, Touch, Brush, Slide, Swish, Swirl, Whirl, Glide, Flick, Roll, Tweak, Pinch, Twist, Tease,
+
 Schlip, Shlup, Shlop, Glush, Glick, Shhk
 
 ### Squeezing
@@ -109,6 +112,7 @@ Ah, Oh, Ahn, Unh, Uwh, Nuh, Kuh, Guh, Knh, Hnn, Gnh, Ofh, Mhn, Mngh, Hngh, Hwah,
 ### Breathing
 
 Pant, Huff, 
+
 Hef, Haf, Hffgh, Hff, Ha, Pwah, Hah
 
 ### Shock (Internal Tingling)
@@ -134,6 +138,7 @@ Thrash, Twitch, Kick, Squirm, Flail, Jump, Buck,
 ### Erection
 
 Perk, Stiff, Throb, Grow,
+
 Schwing
 
 ### Sticky

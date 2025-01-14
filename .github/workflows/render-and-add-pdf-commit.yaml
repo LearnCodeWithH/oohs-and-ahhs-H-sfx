@@ -28,8 +28,12 @@ jobs:
       - name: Add Table of Contents and Build PDF
         run: |
           yarn markdown-toc -i README.md
-          yarn markdown-toc -i H-sfx-EN/README.md
-          yarn markdown-pdf H-sfx-EN/README.md -o H-sfx-EN/H-SFX-English-Groupings.pdf
+
+          cd H-sfx-EN
+          yarn markdown-toc -i README.md
+          sed '/<!--/,/-->/d' README.md > temp.md 
+          markdown-pdf temp.md -o H-SFX-English-Groupings.pdf 
+          rm temp.md
 
       - name: Add TOC and PDF to Git
         run: |
