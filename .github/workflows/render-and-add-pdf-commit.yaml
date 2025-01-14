@@ -28,17 +28,12 @@ jobs:
       - name: Add Table of Contents and Build PDF
         run: |
           yarn markdown-toc -i README.md
+          yarn markdown-toc -i H-sfx-EN/README.md
 
-          cd H-sfx-EN
-          yarn markdown-toc -i README.md
-          touch temp.md
           # Taken from: https://stackoverflow.com/questions/4055837/delete-html-comment-tags-using-regexp
-          SED_OUTPUT=$(cat README.md | sed -e :a -re 's/-->/\x00/g;s/<!--[^\x00]*\x00//g;/<!--/N;//ba')
-          echo ${SED_OUTPUT} > ./temp.md 
-          ls
-          cat temp.md
-          yarn markdown-pdf ./temp.md -o H-SFX-English-Groupings.pdf 
-          rm temp.md
+          cat H-sfx-EN/README.md | sed -e :a -re 's/-->/\x00/g;s/<!--[^\x00]*\x00//g;/<!--/N;//ba') > ./H-sfx-EN/temp.md 
+          yarn markdown-pdf ./H-sfx-EN/temp.md -o H-sfx-EN/H-SFX-English-Groupings.pdf 
+          rm H-sfx-EN/temp.md
 
       - name: Add TOC and PDF to Git
         run: |
