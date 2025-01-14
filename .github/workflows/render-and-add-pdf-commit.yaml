@@ -31,7 +31,8 @@ jobs:
 
           cd H-sfx-EN
           yarn markdown-toc -i README.md
-          sed '/<!--/,/-->/d' README.md > temp.md 
+          # Taken from: https://stackoverflow.com/questions/4055837/delete-html-comment-tags-using-regexp
+          cat README.md | sed -e :a -re 's/-->/\x00/g;s/<!--[^\x00]*\x00//g;/<!--/N;//ba' > temp.md 
           yarn markdown-pdf temp.md -o H-SFX-English-Groupings.pdf 
           rm temp.md
 
