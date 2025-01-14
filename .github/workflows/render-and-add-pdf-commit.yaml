@@ -6,14 +6,19 @@ on:
       - initial-ver1
 
 jobs:
-  build-pdf:
+  build-toc-and-pdf:
     runs-on: ubuntu-latest
+
+    permissions:
+      # Give the default GITHUB_TOKEN write permission to commit and push the
+      # added or changed files to the repository.
+      contents: write
     steps:
       - name: Checkout repo
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
 
       - name: Set up Node
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v4
         with:
           node-version: '16'
 
@@ -27,9 +32,11 @@ jobs:
 
       - name: Commit PDF
         run: |
-          git config user.name github-actions
-          git config user.email actions@github.com
           git add README.md
           git add H-sfx-EN/H-SFX-English-Groupings.pdf
-          git commit -m "Automation generated Table of Contents and rendered PDFs for commit hash '$GITHUB_SHA'"
-          git push
+
+      # Commit all changed files back to the repository
+      - uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Automation generated Table of Contents and rendered PDFs for commit hash '$GITHUB_SHA'"
+  
