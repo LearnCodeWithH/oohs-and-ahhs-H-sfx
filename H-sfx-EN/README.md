@@ -1,4 +1,45 @@
+
+
 <!-- toc -->
+
+- [H Sfx](#h-sfx)
+  * [Sucking](#sucking)
+  * [Nibbling](#nibbling)
+  * [Gurgling](#gurgling)
+  * [French Kissing](#french-kissing)
+  * [Thrusting (Wet, Dry)](#thrusting-wet-dry)
+  * [Deep Grinding (Inside)](#deep-grinding-inside)
+  * [Riding](#riding)
+  * [Poke](#poke)
+  * [Spurting (Ejaculation)](#spurting-ejaculation)
+  * [Cumming](#cumming)
+  * [Rubbing](#rubbing)
+  * [Squeezing](#squeezing)
+  * [Moaning](#moaning)
+  * [Breathing](#breathing)
+  * [Shock (Internal Tingling)](#shock-internal-tingling)
+  * [Laughing](#laughing)
+  * [Surprised](#surprised)
+  * [Enclose (Wrapping Oriface around Genitals)](#enclose-wrapping-oriface-around-genitals)
+  * [Flailing](#flailing)
+  * [Erection](#erection)
+  * [Sticky](#sticky)
+  * [Shaking](#shaking)
+  * [Heart Throb](#heart-throb)
+  * [Headpats](#headpats)
+- [H Phrasings](#h-phrasings)
+  * [Breasts](#breasts)
+  * [Vagina](#vagina)
+  * [Clitoris](#clitoris)
+  * [Penis](#penis)
+  * [Terms of Endearment](#terms-of-endearment)
+  * [Handsome](#handsome)
+  * [Deepthroat](#deepthroat)
+  * [Cunnilingus](#cunnilingus)
+  * [Masturbation (Female)](#masturbation-female)
+  * [Erection](#erection-1)
+  * [Semen](#semen)
+
 <!-- tocstop -->
 
 Entries are split into two lines. Top lines for descriptive words, and bottom lines for pure sound effects.
