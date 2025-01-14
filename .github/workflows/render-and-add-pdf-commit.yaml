@@ -3,7 +3,7 @@ name: Build PDF on merge to main
 on:
   push:
     branches:
-      - initial-ver1
+      - main
 
 jobs:
   build-toc-and-pdf:
